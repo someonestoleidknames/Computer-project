@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./Math-For-Dummies.css">
+<style>
+
+</style>
+</head>
+<body style="padding: 0px; margin: 0px; background-color: grey;">
+<div class="header">
+<h1 class="h1">
+  <center>
+    <a href="Math-For-Dummies.html">Math For Dummies</a>
+    <a href="Grade-7.html">Grade 7</a>
+    <a href="Grade-8.html">Grade 8</a>
+    <a href="Grade-9.html">Grade 9</a>
+    Cart:<span id="display">0</span>
+  </center>
+ </h1>
+</div>
+<div class="GR-over">
+  <center><h1>Math Memebership For Grade 8</h1></center>
+  <table style="width:100%">
+    <tr rowspan="2">
+      <td rowspan="2" class="image">
+        <img src="P/Grade-8.jpg" class="ids">
+      </td>
+      <td colspan="3" class="text">
+        <h2 style="margin: 0;">UNITS</h2>
+        <p style="margin: 0px;">
+          <strong> Operations:</strong> Advanced operations with integers, rational numbers, and real numbers.
+          <strong>Algebra:</strong> More complex algebraic expressions, solving linear equations and inequalities, and understanding functions.
+          <strong>Geometry:</strong> Theorems related to angles, triangles, and other polygons; properties of circles; and transformations (translations, rotations, reflections).
+          <strong>Measurement:</strong> Working with perimeter, area, volume, and surface area of various shapes.
+          <strong>Data Management:</strong> Analyzing and interpreting data sets, probability concepts, and making predictions based on data.
+          <strong>Financial Literacy:</strong> Understanding budgets, interest rates, and basic concepts of savings and investments.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <h2>Content</h2>
+        <p>Jump math book</p>
+        <p>Calculator</p>
+        <p>ruler</p>
+        <p>A pencil case containing</p>
+        <p> -mechanical pencils (12 pack)</p>
+        <p>3 white erasers</p>
+        
+          
+        
+      </td>
+      <td>
+        <div class="cheat">
+          <h2>Ways to learn math</h2>
+          <p>1. Chat Gpt</p>
+          <p>2. Calculator</p>
+          <p>3. Take Kumon to learn math</p>
+          <p>4. use a math app</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<footer>
+  <h2 style="font-size: small;">
+    Copyrighted Material. All content included in or made available through Math-For-Dummies Business, 
+    such as text, graphics, logos, button icons, images, audio clips, 
+    digital downloads, data compilations, and software is the property of Math-For-Dummies.com.ca ULC, 
+    its affiliates, or its content suppliers and protected by Canadian and international copyright Laws. 
+  </h2>
+  
+  <script type="text/javascript">
+    let count = 0;
+    const disp = document.getElementById("display");
+
+    document.querySelectorAll("button").forEach(button => {
+        button.onclick = function () {
+            count++;
+            disp.innerHTML = count;
+        };
+    });
+</script>
+</footer>
+</body>
+</html>
